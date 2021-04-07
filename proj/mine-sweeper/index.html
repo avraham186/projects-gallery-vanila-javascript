@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>MineSweeper</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body onload="init(4,2)">
+    <div class="game-level">
+        <select name="Level" onchange="chooseLevel(this)">
+            <option value="easy">easy</option>
+            <option value="medium">medium</option>
+            <option value="hard">hard</option>
+        </select>
+    </div>
+    <div class="game-container">
+        <div class="score">lives</div>
+        <div class="smily-button" onclick="init(4,2)">😃</div>
+        <div class="stop-watch">stopwatch</div>
+        <div class="board">board</div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+body{
+    background-color: antiquewhite;
+}
+.game-level{
+    margin-bottom: 30px;
+    width: 70%px;
+    /* overflow: scroll; */
+}
+
+div .easy{
+    display: inline-block;
+    text-align:center;
+    /* margin-left: 30px; */
+    width: 30%;
+    font-size: 16px;
+    /* position: relative; */
+    cursor: pointer;
+}
+div .medium{
+    display: inline-block;
+    text-align: center;
+    /* margin-left: 80px; */
+    width: 30%;
+    font-size: 16px;
+    /* position: relative; */
+    cursor: pointer;
+}
+div .hard{
+    display: inline-block;
+    text-align: center;
+    /* margin-left: 80px; */
+    width: 30%;
+    font-size: 16px;
+    /* position: relative; */
+    cursor: pointer;
+}
+div .score {
+    color: red;
+    width: 30%;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+div .smily-button{
+    width: 30%;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+div .stop-watch {
+    /* background-color: black; */
+    text-align: center;
+    color: red;
+    width: 30%;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    /* margin-left: 100px; */
+}
+
+.board table{
+    margin: auto;
+    margin-top: 30px;
+}
+.cell{
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: gray;
+}
+.cell:hover{
+    background-color: lightgrey;
+}

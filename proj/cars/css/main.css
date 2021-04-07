@@ -1,0 +1,45 @@
+
+.car-preview {
+    width: 18%;
+    margin: 10px;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 5px;
+}
+
+img {
+    width: 100px;
+}
+
+.cars-container {
+    display: flex;
+    flex-wrap: wrap
+}
+
+
+.delete-btn {
+    float: right;
+    cursor: pointer;
+}
+
+.modal {
+    background-color: lightgray;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    height: 100%;
+    min-width: 300px;
+    text-align: center;
+}
+
+
+.add-car {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.car-filter {
+    background-color: olive;
+    padding: 5px;
+}

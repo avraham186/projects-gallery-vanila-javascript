@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>book shop</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body onload="oninit()">
+    
+    <section class="books-table">
+        <button class="new-book" onclick="onAddBook()">Add new Book</button>
+        <table>
+            <thead>
+                <tr>
+                    <th> id</th>
+                    <th class="hovered" abbr="title" onclick="onSetSort(this.abbr)"> title</th>
+                    <th class="hovered" abbr="price" onclick="onSetSort(this.abbr)"> price</th>
+                    <th colspan="3"> actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </section>
+    <section class="modal-container">
+        <button class="btn-modal" onclick="onCloseModal()">close</button>
+        <div class="book-pic"></div>
+        <div class="modal"></div>
+    </section>
+    <script src="./js/shopController.js"></script>
+    <script src="./js/shopService.js"></script>
+</body>
+</html>

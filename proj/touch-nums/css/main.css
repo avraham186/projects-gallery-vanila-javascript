@@ -1,0 +1,34 @@
+.new-game{
+    margin: 10px;
+    background-color:antiquewhite;
+    padding: 2px;
+}
+.level-div{
+    margin: auto;
+    text-align: center;
+}
+.level{
+    background-color: teal;
+    color: aliceblue;
+    padding: 2px;
+    margin: 15px;
+    text-align: center;
+}
+.game-time{
+    position: absolute;
+    padding: 2px;
+}
+.next-number{
+    text-align: center;
+    padding: 2px;
+    margin-left: 400px;
+}
+.game-board button{
+    text-align: center;
+    width: 50px;
+    border-radius: 20%;
+}
+.game-board table{
+    margin: auto;
+    margin-top: 50px;
+}
