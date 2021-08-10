@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./icons-imgs/favicon.png" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Meme generator</title>
+</head>
+
+<body onload="onInit()">
+    <nav>
+        <a onclick="onGalleryClick()" href="#gallery">gallery</a>
+    </nav>
+    <div class="container">
+        <div class="screen">
+            <div class="canvas-container">
+                <canvas width="500" height="500"></canvas>
+            </div>
+            <div class="meme-control">
+                <!-- <label> -->
+                    <input class="input-txt" type="text" placeholder="insert text" oninput="onTextChange(this)">
+                <!-- </label> -->
+                <br />
+                <button class="text-up" onclick="onTextUp()"><span>⬆</span></button>
+                <button class="text-down" onclick="onTextDown()"><span>⬇</span></button>
+                <button class="text-left" onclick="onTextLeft()"><span>⬅</span></button>
+                <button class="text-right" onclick="onTextRight()"><span>➡</span></button>
+                <button class="switch-line" onclick="onSwitchLine()"><span>🔃</span></button>
+                <button class="line-add" onclick="onAddLine()"><span>+</span></button>
+                <select class="font-family" onchange="onFontChange(this.value)">
+                    <option>Impact</option>
+                    <option>Italic</option>
+                    <option>Arial</option>
+                <input class="stroke-color" oninput="onStrokeColor(this.value)" type="color" />
+                <input class="fill-color" oninput="onFillColor(this.value)" type="color" value="#ffffff" />
+                <button class="bigger-text" onclick="onIncreaseText()"><span>A+</span></button>
+                <button class="smaller-text" onclick="onDecreaseText()"><span>A-</span></button>
+                <button class="remove-line" onclick="onRemoveLine()"><span>🗑</span></button>
+                <button class="download" onclick="onDownloadPrep(this)">
+                    <a href="#"><span>📥</span></a>
+                </button>
+                <div class="stickers">
+                    <span class="sticker" onclick="onAddSticker('😀')">😀</span>
+                    <span class="sticker" onclick="onAddSticker('😂')">😂</span>
+                    <span class="sticker" onclick="onAddSticker('👍')">👍</span>
+                    <span class="sticker" onclick="onAddSticker('🕶')">🕶</span>
+                    <span class="sticker" onclick="onAddSticker('💎')">💎</span>
+                    <span class="sticker" onclick="onAddSticker('🏹')">🏹</span>
+                    <span class="sticker" onclick="onAddSticker('❤')">❤</span> 
+                    <span class="sticker" onclick="onAddSticker('⛔')">⛔</span>
+                    <span class="sticker" onclick="onAddSticker('💲')">💲</span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="gallery"></div>
+    </div>
+    <div class="footer">
+        <small>made by Avraham Kuperwasser</small>
+    </div>
+
+    <script src="js/memeService.js"></script>
+    <script src="js/memeController.js"></script>
+    <script src="js/galleryContrller.js"></script>
+</body>
+
+</html>
