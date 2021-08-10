@@ -7,7 +7,7 @@ var gprotfolios = [
         desc: 'minesweeper game',
         url: '<a href="./proj/mine-sweeper/index.html">Click Here For The Project!</a>',
         brand:'game',
-        imgUrl: './img/portfolio/01-full.png',
+        imgUrl: './img/portfolio/minesweeper.png',
         publishedAt: 12323564325,
         labels: ["Matrix", "keyboard events"]
     },
@@ -18,7 +18,7 @@ var gprotfolios = [
         desc: 'bookshop',
         url: '<a href="./proj/book-shop/index.html">Click Here For The Project!</a>',
         brand:'game',
-        imgUrl:'./img/portfolio/02-full.jpg',
+        imgUrl:'./img/portfolio/bookShop.jpg',
         publishedAt: 12323564325,
         labels: ["Matrix", "keyboard events"]
     },
@@ -29,7 +29,7 @@ var gprotfolios = [
         desc: 'car shop',
         url: '<a href="./proj/cars/index.html">Click Here For The Project!</a>',
         brand:'game',
-        imgUrl:'./img/portfolio/03-full.png',
+        imgUrl:'./img/portfolio/carShop.png',
         publishedAt: 12323564325,
         labels: ["Matrix", "keyboard events"]
     },
@@ -40,7 +40,7 @@ var gprotfolios = [
         desc: 'todo app ',
         url: '<a href="./proj/todos/index.html">Click Here For The Project!</a>',
         brand:'game',
-        imgUrl:'./img/portfolio/04-full.png',
+        imgUrl:'./img/portfolio/todoApp.png',
         publishedAt: 12323564325,
         labels: ["Matrix", "keyboard events"]
     },
@@ -51,7 +51,7 @@ var gprotfolios = [
         desc: 'ballboard game',
         url: '<a href="./proj/ball-board/index.html">Click Here For The Project!</a>',
         brand:'game',
-        imgUrl:'./img/portfolio/05-full.jpg',
+        imgUrl:'./img/portfolio/ballBoard.jpg',
         publishedAt: 12323564325,
         labels: ["Matrix", "keyboard events"]
     },
@@ -62,7 +62,7 @@ var gprotfolios = [
         desc: 'meme generator app',
         url: '<a href="./proj/memegen/index.html">Click Here For The Project!</a>',
         brand:'game',
-        imgUrl:'./img/portfolio/05-full.jpg',
+        imgUrl:'./img/portfolio/memeGen.jpg',
         publishedAt: 12323564325,
         labels: ["Matrix", "keyboard events"]
     }
